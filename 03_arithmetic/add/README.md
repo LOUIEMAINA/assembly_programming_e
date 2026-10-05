@@ -3,8 +3,7 @@
 ## Program 1: 0xFFFFFFFF + 1 = 0x00000000
 - Carry Flag: set. The unsigned result does not fit in 32 bits, so a carry came out of the top bit.
 - Zero Flag: set. The 32-bit result is exactly zero.
-- Sign Flag: cleared. The most significant bit of the result is 0.
-- Overflow Flag: cleared. Signed: -1 + 1 = 0, which is correct. Operands have different signs, so signed overflow is impossible.
+- Sign Flag: cleared. The most significant bit of the result is 0.asmverflow is impossible.
 - Parity Flag: set. The lowest byte is 0x00, which has zero one-bits (an even count).
 - Auxiliary Carry Flag: set. 0xF + 0x1 carries out of bit 3 into bit 4.
 
